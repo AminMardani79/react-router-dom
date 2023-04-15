@@ -1,9 +1,14 @@
+import { Routes,Route } from "react-router-dom"
+
 function App() {
 
   return (
-    <div className="text-2xl">
-      hello
-    </div>
+    <Routes>
+      <Route path="/" element={<div>Home</div>} />
+      <Route path="/login" element={<div>Home</div>} />
+      <Route path="/dashboard" element={<div>Home</div>} />
+      <Route path="/settings" element={<div>Home</div>} />
+    </Routes>
   )
 }
 
